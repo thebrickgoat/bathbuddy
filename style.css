@@ -1,0 +1,41 @@
+/* CSS files add styling rules to your content */
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+body {
+  font-family: 'Alata', sans-serif;
+  margin: 2em;
+  background-color:#FFE6D7;
+}
+
+h1 {
+  font-style: italic;
+  font-size:2em;
+  margin:30px;
+  text-align:center;
+}
+
+.textContainer{
+  font-size:2em;
+  margin-top:30px;
+  text-align:center;
+  width:100%
+}
+
+.animContainer{
+  margin:auto;
+  width:100%;
+  text-align: center;
+
+}
+
+.bathAnimation{
+    margin:auto;
+    width:50%;
+    min-width:150px;
+    max-width:1000px
+}
+
+.linkBrah{
+    text-align:center;
+  margin:1em;
+}0
