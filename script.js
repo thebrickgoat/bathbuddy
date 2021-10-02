@@ -28,11 +28,11 @@ var bImage = document.getElementById("bathImageContainer");
 
 var bathImages = [
   //none
-  "none.png",
+  "assets/none.png",
   //justright
-  "justright.gif",
+  "assets/justright.gif",
   //broke
-  "broke.png"
+  "assets/broke.png"
 ];
 
 var bText = document.getElementById("bathTextContainer");
