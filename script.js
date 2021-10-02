@@ -28,11 +28,11 @@ var bImage = document.getElementById("bathImageContainer");
 
 var bathImages = [
   //none
-  "https://cdn.glitch.com/6d22154b-758f-4c98-a6dc-7c38dfcef06f%2Fnobath.png?v=1600803483737",
+  "none.png",
   //justright
-  "https://cdn.glitch.com/6d22154b-758f-4c98-a6dc-7c38dfcef06f%2FjustRight-Backgrounds_1.gif?v=1597424022276",
+  "justright.gif",
   //broke
-  "https://cdn.glitch.com/6d22154b-758f-4c98-a6dc-7c38dfcef06f%2Fbrokebath.png?v=1600804254713"
+  "broke.png"
 ];
 
 var bText = document.getElementById("bathTextContainer");
