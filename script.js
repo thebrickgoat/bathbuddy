@@ -30,7 +30,7 @@ var bathImages = [
   //none
   "assets/none.png",
   //justright
-  "assets/justright.gif",
+  "assets/justright.svg",
   //broke
   "assets/broke.png"
 ];
