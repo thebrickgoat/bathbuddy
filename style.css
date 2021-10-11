@@ -1,41 +1,62 @@
 /* CSS files add styling rules to your content */
-@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
 
 body {
-  font-family: 'Alata', sans-serif;
-  margin: 2em;
-  background-color:#FFE6D7;
+  font-family: "Alata", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  background: hsla(18, 76%, 85%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(18, 76%, 85%, 1) 0%,
+    hsla(203, 69%, 84%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(18, 76%, 85%, 1) 0%,
+    hsla(203, 69%, 84%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(18, 76%, 85%, 1) 0%,
+    hsla(203, 69%, 84%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F6CFBE", endColorstr="#B9DCF2", GradientType=1 );
 }
 
 h1 {
   font-style: italic;
-  font-size:2em;
-  margin:30px;
-  text-align:center;
-}
-
-.textContainer{
-  font-size:2em;
-  margin-top:30px;
-  text-align:center;
-  width:100%
-}
-
-.animContainer{
-  margin:auto;
-  width:100%;
+  font-size: 2em;
+  margin: 30px;
   text-align: center;
-
 }
 
-.bathAnimation{
+.textContainer {
+  font-size: 2em;
+  margin-top: 30px;
+  text-align: center;
+  width: 100%;
+}
+
+.animContainer {
+  width: 100%;
+  text-align: center;
+  margin: 5em auto;
+}
+
+.bathAnimation {
   margin: auto;
   width: 37%;
   min-width: 325px;
   max-width: 1000px;
 }
 
-.linkBrah{
-    text-align:center;
-  margin:1em;
+.linkBrah {
+  text-align: center;
+  margin: 1em;
 }

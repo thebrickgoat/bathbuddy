@@ -69,12 +69,12 @@ dbRef.on("value", function (snap) {
       case "hot":
         break;
       case "none":
-        bImage.src = bathImages[0];
+        bImage.data = bathImages[0];
         bText.innerHTML =
           bathTextsNone[Math.floor(Math.random() * bathTextsNone.length)];
         break;
       default:
-        bImage.src = bathImages[2];
+        bImage.data = bathImages[2];
         bText.innerHTML =
           "Not only is the bath empty, but it has broken the whole system!";
     }
