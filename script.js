@@ -58,7 +58,7 @@ dbRef.on("value", function (snap) {
    console.log(bathtime);
    switch (bathtime) {
       case "right":
-        bImage.src = bathImages[1];
+        bImage.data = bathImages[1];
         bText.innerHTML =
           bathTextsJustRight[
             Math.floor(Math.random() * bathTextsJustRight.length)
