@@ -28,7 +28,7 @@ var bImage = document.getElementById("bathImageContainer");
 
 var bathImages = [
   //none
-  "assets/none.png",
+  "assets/none.svg",
   //justright
   "assets/justright.svg",
   //broke
